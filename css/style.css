@@ -36,3 +36,49 @@ p {
 img {
   width: 100%; /* Keep the image stay within its container */
 }
+
+.navbar {
+  background-color: #047aed;
+  color: #fff;
+  height: 70px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow: auto; /* Trick to contain the margin top of a h1 inside a container to stay within the container */
+  padding: 0 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
