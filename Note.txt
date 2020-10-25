@@ -4,5 +4,6 @@ https://www.youtube.com/watch?v=p0bGHP-PXD4&t=29s
 https://github.com/bradtraversy/loruki-website
 https://github.com/Annie-Huang/loruki-website
 
+https://cdnjs.com/libraries/font-awesome
 =======================================================
 
