@@ -68,7 +68,16 @@ img {
 .showcase {
   height: 400px;
   background-color: var(--primary-color);
+  color: #fff;
+  position: relative; /* in case we need to position anything absolute within .showcase */
 }
+.showcase h1 {
+  font-size: 40px;
+}
+.showcase p {
+  margin: 20px 0;
+}
+
 
 /* Utilities */
 .container {
@@ -85,6 +94,14 @@ img {
   height: 100%;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
 
 
 
