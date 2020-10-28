@@ -86,7 +86,26 @@ img {
   position: relative;
   top: 60px;
   height: 350px;
+  width: 400px;
+  padding: 40px; /* this will not be applicable because the .card's padding is below in the file and will use that one */
+  z-index: 100;
+  justify-self: flex-end;
 }
+.showcase-form .form-control {
+  margin: 30px 0;
+}
+.showcase-form input[type='text'],
+.showcase-form input[type='email'] {
+  border: 0;
+  border-bottom: 1px solid #b4becb;
+  width: 100%;
+  padding: 3px;
+  font-size: 16px;
+}
+.showcase-form input:focus {
+  outline: none;
+}
+
 
 /* Utilities */
 .container {
