@@ -201,6 +201,12 @@ img {
     justify-self: center;
     margin: auto;
   }
+
+  /* So the two cards below is not in the same line.*/
+  .cli .grid > *:first-child {
+    grid-column: 1;
+    grid-row: 1;
+  }
 }
 /* Mobile */
 @media(max-width: 500px) {
