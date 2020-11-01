@@ -93,6 +93,9 @@ code, pre {
   grid-template-columns: 55% 45%;
   gap: 30px;
 }
+.showcase-text {
+  animation: slideInFromLeft 1s ease-in;
+}
 .showcase-form {
   position: relative;
   top: 60px;
@@ -101,6 +104,7 @@ code, pre {
   padding: 40px; /* this will not be applicable because the .card's padding is below in the file and will use that one */
   z-index: 100;
   justify-self: flex-end;
+  animation: slideInFromRight 1s ease-in;
 }
 .showcase-form .form-control {
   margin: 30px 0;
@@ -135,6 +139,7 @@ code, pre {
 /* Stats */
 .stats {
   padding-top: 100px;
+  animation: slideInFromBottom 1s ease-in;
 }
 .stats-heading {
   max-width: 500px;
