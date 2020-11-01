@@ -8,7 +8,7 @@ https://cdnjs.com/libraries/font-awesome
 https://fonts.google.com/specimen/Lato?query=lato
 https://fonts.google.com/specimen/Lato?query=lato&sidebar.open=true&selection.family=Lato:wght@300
 https://docs.netlify.com/forms/setup/#html-forms
-
+https://docs.netlify.com/forms/spam-filters/#extra-spam-prevention
 =======================================================
 
 C:\react\loruki-website>npm init -y
