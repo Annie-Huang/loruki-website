@@ -233,7 +233,9 @@ code, pre {
   .showcase .grid,
   .stats .grid,
   .cli .grid,
-  .cloud .grid {
+  .cloud .grid,
+  .features-main .grid,
+  .docs-main .grid {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
   }
@@ -254,6 +256,17 @@ code, pre {
   .cli .grid > *:first-child {
     grid-column: 1;
     grid-row: 1;
+  }
+
+  .features-head,
+  .feature-sub-head,
+  .docs-main {
+    text-align: center;
+  }
+  .features-head img,
+  .feature-sub-head img,
+  .docs-head img {
+    justify-self: center;
   }
 }
 /* Mobile */
